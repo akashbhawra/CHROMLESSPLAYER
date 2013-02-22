@@ -1,0 +1,26 @@
+<configs>
+	<js>home.js</js>
+	<config id="home-container">
+		<div id="container">
+			<h1>Go geta home</h1>
+			<div class="nested-container-sample" condition="isNestedContainer()">
+				<span class="nested-element"></span>
+			</div>
+		</div>
+	</config>
+	<config id="repeat-sample">
+		<div id="repeat-sample">
+			<repeat repeatarray="getItemArray()">
+				<span>getItemElem()</span>
+			</repeat>
+		</div>
+	</config>
+	<config id = "testing">
+	  <div id = "test">
+        <a id = "yt" href = "#" class = "link" click = "clicktest">Click</a>
+        <a href = '#' condition = "test()" click = "clicktest">link 2</a>
+        <span id = "placeholder"></span>
+      </div>
+    </config>
+    <config></config>
+</configs>

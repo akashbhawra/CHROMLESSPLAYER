@@ -1,0 +1,33 @@
+.header {
+ padding-top:20px;
+
+}
+.submenu {
+float:right;
+}
+.mainmenudiv {
+margin-top:10px;
+margin-bottom:15px;
+}
+.mainmenudiv .mainmenu {
+ padding-top: 11px;
+ padding-bottom: 11px;
+ margin: 0px;
+ padding-left: 11px;
+
+}
+.footer {
+  margin-top:30px;
+}
+#controls img {
+padding-right:20px;
+
+}
+#youtube-main {
+text-align: center;
+
+}
+:-webkit-full-screen #player {
+  width: 100%;
+  height: 100%;
+}

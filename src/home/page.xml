@@ -1,0 +1,124 @@
+<configs>
+<js>home.js</js>
+<config id = "bootstrap-page">
+<div class="container-fluid" style = "background-color:#A96E08">
+  <div class="container-fluid" style = "background-color:#FFF">
+    <div class = "row-fluid header">
+      <div class="span3">
+        <img src = "../../bootstrap/img/sevenStones_pinotNoir.jpg " />
+      </div>
+      <div class="span9">
+        <ul class="nav nav-pills submenu">
+          <li><a href="#">Home</a>
+          </li>
+          <li><a href="#">Menu1</a></li>
+          <li><a href="#">Menu2</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Dropdown
+              <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Menu1</a></li>
+              <li>
+                <a href="#">Menu2</a></li>
+              </ul>
+            </li>
+          </ul>
+      </div>
+    </div>
+    <div class = "row-fluid mainmenudiv" style = "background-color:#E6F0B4">
+      <ul class="nav nav-pills mainmenu">
+        <li class="active">
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Menu1</a></li>
+        <li>
+          <a href="#">Menu2</a></li>
+      </ul>
+    </div>
+    <div class="row-fluid">
+      <div class="span2">
+        <ul class="nav nav-list">
+            <li class="nav-header">List header</li>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Library</a></li>
+            <li class="nav-header">List header</li>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Library</a></li><li class="nav-header">List header</li>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Library</a></li>
+            <li class="nav-header">List header</li>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Library</a></li>
+        </ul>
+      </div>
+      <div class="span10">
+        <div class="hero-unit">
+          <div id = "youtube-main">
+            <div id = "player" condition = "player();">
+            </div>
+            <div id = "controls">
+              <span class = "playvideo">
+                <a href = "#" click = "playvideo">
+                  <img src = "../build/bootstrap/img/play.png" />
+                </a>
+              </span>
+              <span class ="pausevideo">
+                <a href = "#" click = "stopvideo">
+                  <img src = "../build/bootstrap/img/pause.png" />
+                </a>
+              </span>
+              <span class ="mute_unmutevideo">
+                <a href = "#" click = "mute_unmute">
+                  <img src = "../build/bootstrap/img/unmute.jpeg" />
+                </a>
+              </span>
+              <span class ="fullscreen">
+                <a href = "#" click = "fullscreen_toggle">
+                  <img src = "../build/bootstrap/img/FS.jpeg" />
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+     </div>
+    </div>
+    <div class = "row-fluid footer" style = "background-color:green">
+      <div class = "span3">
+        <ul class="nav nav-list">
+          <li class="nav-header">List header</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Library</a></li>
+        </ul>
+      </div>
+      <div class = "span3">
+        <ul class="nav nav-list">
+          <li class="nav-header">List header</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Library</a></li>
+        </ul>
+      </div>
+      <div class = "span3">
+        <ul class="nav nav-list">
+          <li class="nav-header">List header</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Library</a></li>
+        </ul>
+      </div>
+      <div class = "span3">
+        <ul class="nav nav-list">
+          <li class="nav-header">List header</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Library</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</config>
+</configs>

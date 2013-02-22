@@ -1,0 +1,99 @@
+<configs>
+<js>home.js</js>
+<config id = "bootstrap-page">
+<div class = "container">
+    <div class = "main-outer">
+      <div class = "row headerrow">
+        <div class = "span2 logo">
+	      <span class = "header-logo"><img src = "../../bootstrap/img/sevenStones_pinotNoir.jpg	" />
+		  </span>
+	    </div>
+	    <div class = "span8 secondary-links">
+		<ul class="nav nav-pills">
+
+			<li><a href="#">Home</a>
+            </li>
+            <li><a href="#">Menu1</a></li>
+            <li><a href="#">Menu2</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Dropdown
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+			        <a href="#">Home</a>
+                  </li>
+                  <li>
+			        <a href="#">Menu1</a></li>
+                  <li>
+			        <a href="#">Menu2</a></li>
+                </ul>
+              </li>
+            </ul>
+		</div>
+
+      </div>
+      <div class = "row">
+        <div class ="span10 dropdown">
+          <ul class="nav nav-pills">
+            <li class="active">
+              <a href="#">Home</a>
+            </li>
+            <li><a href="#">Menu1</a></li>
+            <li><a href="#">Menu2</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class = "row">
+        <div class="container-fluid">
+		  <div class="row-fluid">
+			                <div class="span3 sidebar-right">
+                <ul class="nav nav-list">
+                  <li class="nav-header">List header</li>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Library</a></li>
+                    <li class="nav-header">List header</li>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Library</a></li><li class="nav-header">List header</li>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Library</a></li>
+                    <li class="nav-header">List header</li>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Library</a></li>
+                  </ul>
+                </div>
+                <div class="span9 body-content">
+                <div class="hero-unit">
+				<div id = "youtube-main">
+				<div id = "player" condition = "player();"></div>
+				<div id = "controls">
+				  <span class = "playvideo">
+				    <a href = "#" click = "playvideo">Play</a></span>
+			      <span class ="pausevideo">
+				    <a href = "#" click = "stopvideo">Pause</a></span>
+				  <span class ="mute_unmutevideo">
+				  <a href = "#" click = "mute_unmute">Mute</a></span>
+			    </div>
+				</div>
+				</div>
+				<div class = "row-fluid">
+                  <div class ="span6 block-1">
+					 Block 1
+				  </div>
+				<div class ="span6 block-2">
+                 Block 2
+               </div>
+				</div>
+				</div>
+		  </div>
+	    </div>
+	    </div>
+     <div class = "row footerrow">
+       <span class = "footer">
+         Footer
+       </span>
+     </div>
+   </div>
+</div>
+</config>
+</configs>
